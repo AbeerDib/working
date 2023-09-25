@@ -30,7 +30,7 @@ st.write("")
 #'<span class="custom-text">This text has a custom color.</span>', unsafe_allow_html=True
 
 #df=pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
-df=pd.read_csv("https://raw.githubusercontent.com/AbeerDib/Final/main/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+df=pd.read_csv("https://raw.githubusercontent.com/AbeerDib/working/main/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 st.subheader("1-Interactive dataframe ")
 col1,col2=st.columns([1.3,1])
 with col2:
